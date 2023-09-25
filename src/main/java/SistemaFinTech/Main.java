@@ -1,2 +1,4 @@
-package SistemaFinTech;public class Main {
+package SistemaFinTech;
+
+public class Main {
 }

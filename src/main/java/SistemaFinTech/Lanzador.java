@@ -1,2 +1,4 @@
-package SistemaFinTech;public class Lanzador {
+package SistemaFinTech;
+
+public class Lanzador {
 }
