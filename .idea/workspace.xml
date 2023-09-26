@@ -5,10 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3465a320-eee3-4734-b76e-07fe4f3b9971" name="Changes" comment="Cambios">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/SistemaFinTech/Cuenta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SistemaFinTech/Cuenta.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/SistemaFinTech/Lanzador.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SistemaFinTech/Lanzador.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/SistemaFinTech/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SistemaFinTech/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +50,7 @@
       <updated>1695639871211</updated>
       <workItem from="1695639873089" duration="195000" />
       <workItem from="1695666994184" duration="1325000" />
-      <workItem from="1695722056664" duration="806000" />
+      <workItem from="1695722056664" duration="1126000" />
     </task>
     <task id="LOCAL-00001" summary="Cambios">
       <created>1695667467405</created>
@@ -62,7 +59,14 @@
       <option name="project" value="LOCAL" />
       <updated>1695667467405</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Cambios">
+      <created>1695723056925</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1695723056925</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
