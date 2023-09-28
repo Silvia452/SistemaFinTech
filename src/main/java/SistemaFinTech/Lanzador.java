@@ -9,36 +9,36 @@ public class Lanzador {
 
         for (int i = 0; i < 400; i++) {
             hilos[i] = new Thread(new HiloCliente(cuenta, 100, true)); //deposito de 100 euros
-            hilos[i+400] = new Thread(new HiloCliente(cuenta, 100, false));
+            hilos[i + 400] = new Thread(new HiloCliente(cuenta, 100, false));
         }
 
-        for (int i = 800; i < 1000; i++){ //400+400 --> 800
+        for (int i = 800; i < 1000; i++) { //400+400 --> 800
             hilos[i] = new Thread(new HiloCliente(cuenta, 50, true)); //deposito de 50 euros
-            hilos[i+200] = new Thread(new HiloCliente(cuenta, 50, false));
+            hilos[i + 200] = new Thread(new HiloCliente(cuenta, 50, false));
         }
 
-        for (int i = 1200; i < 1800; i++){ //1000+200-->1200
+        for (int i = 1200; i < 1800; i++) { //1000+200-->1200
             hilos[i] = new Thread(new HiloCliente(cuenta, 20, true)); //deposito de 20 euros
-            hilos[i+600] = new Thread(new HiloCliente(cuenta, 20, false));
+            hilos[i + 600] = new Thread(new HiloCliente(cuenta, 20, false));
         }
 
-        for (Thread hilo: hilos) { //inicio de todos los hilos
+        for (Thread hilo : hilos) { //inicio de todos los hilos
             hilo.start();
         }
 
-        for (Thread hilo: hilos){ //espera a que todos los hilos terminen
+        for (Thread hilo : hilos) { //espera a que todos los hilos terminen
             hilo.join();
         }
 
+        double saldoFinal = cuenta.getSaldo();
 
-
-
-
-
-
-
+        if (saldoFinal == 10000) {
+            System.out.println("El saldo final es correcto");
+            System.out.println("El saldo final es: " + saldoFinal);
+        }else{
+            System.out.println("El saldo final es incorrecto");
+            System.out.println("El saldo final es: " + saldoFinal);
+        }
 
     }
-
-
 }
