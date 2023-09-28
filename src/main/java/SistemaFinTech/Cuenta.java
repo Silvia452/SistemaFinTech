@@ -4,8 +4,8 @@ public class Cuenta {
 
     private double saldo;
 
-    public Cuenta(double saldo){
-        this.saldo = saldo;
+    public Cuenta(double saldoInicial){
+        this.saldo = saldoInicial;
     }
 
     public double getSaldo() {
