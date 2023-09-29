@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3465a320-eee3-4734-b76e-07fe4f3b9971" name="Changes" comment="Cambios">
+    <list default="true" id="3465a320-eee3-4734-b76e-07fe4f3b9971" name="Changes" comment="Cambios funcionando">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/SistemaFinTech/Lanzador.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SistemaFinTech/Lanzador.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/SistemaFinTech/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SistemaFinTech/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,6 +90,8 @@
       <workItem from="1695890362138" duration="2964000" />
       <workItem from="1695916206323" duration="1039000" />
       <workItem from="1695972536474" duration="669000" />
+      <workItem from="1695980616893" duration="489000" />
+      <workItem from="1695982023204" duration="225000" />
     </task>
     <task id="LOCAL-00001" summary="Cambios">
       <created>1695667467405</created>
@@ -134,7 +135,14 @@
       <option name="project" value="LOCAL" />
       <updated>1695891758663</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Cambios funcionando">
+      <created>1695980897162</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1695980897162</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -153,7 +161,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Cambios" />
-    <option name="LAST_COMMIT_MESSAGE" value="Cambios" />
+    <MESSAGE value="Cambios funcionando" />
+    <option name="LAST_COMMIT_MESSAGE" value="Cambios funcionando" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

@@ -4,14 +4,14 @@ public class Lanzador {
     public static void main(String[] args) throws InterruptedException {
 
         Cuenta cuenta = new Cuenta(10000); //el saldo inicial es de 10000 euros
-
-        Thread[] hilosDeposito = new Thread[1200];
-        Thread[] hilosRetiro = new Thread[1200];
+        int NUM_HILOS = 1200;
+        Thread[] hilosDeposito = new Thread[NUM_HILOS];
+        Thread[] hilosRetiro = new Thread[NUM_HILOS];
 
         for (int i = 0; i < 400; i++) {
-            hilosDeposito[i] = new Thread(new HiloCliente(cuenta, 100, true));
-            hilosDeposito[i+400] = new Thread(new HiloCliente(cuenta, 50, true));
-            hilosDeposito[i+800] = new Thread(new HiloCliente(cuenta, 20, true));
+            hilosDeposito[i] = new Thread(new HiloCliente(cuenta, 100, true)); //deposito de 100 euros
+            hilosDeposito[i+400] = new Thread(new HiloCliente(cuenta, 50, true)); //deposito de 50 euros
+            hilosDeposito[i+800] = new Thread(new HiloCliente(cuenta, 20, true));  //deposito de 20 euros
 
             hilosRetiro[i] = new Thread(new HiloCliente(cuenta, 100, false));
             hilosRetiro[i+400] = new Thread(new HiloCliente(cuenta, 50, false));
@@ -24,7 +24,7 @@ public class Lanzador {
             hilosRetiro[i].start();
         }
 
-        for(int i=0; i<1200; i++){
+        for(int i=0; i<1200; i++){ //espera a que todos los hilos terminen
             try{
                 hilosDeposito[i].join();
                 hilosRetiro[i].join();
